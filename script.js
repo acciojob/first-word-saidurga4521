@@ -1,5 +1,14 @@
 function firstWord(s) {
-  // your code here
+  let ans=""
+  for(let i=0;i<s.length;i++){
+    if(s[i]!=' '){
+      ans=ans+s[i]
+  }
+  else{
+    break;
+  }
+}
+	return ans;
 }
 
 // Do not change the code below
